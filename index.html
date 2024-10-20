@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>GAMIFY STORE</title>
+</head>
+<body>
+    <header>
+        <a class="link-logo" href="index.html"><img class="logo-main" src="./assets/logo-main.png" alt="gamify logo"></a>
+        <div class="hero">
+            <div class="hero-radial-gradiant"></div>
+            <div class="counter" id="counter">
+                <p class="counter_title">Enjoy our <br> <span>sales month!</span></p>
+                <div class="group">
+                    <p class="counter-number" id="days">00</p>
+                    <p class="counter-text">Days</p>
+                </div>
+                <div class="group">
+                    <p class="counter-number" id="hours">00</p>
+                    <p class="counter-text">Hours</p>
+                </div>
+                <div class="group">
+                    <p class="counter-number" id="minutes">00</p>
+                    <p class="counter-text">Minutes</p>
+                </div>
+                <div class="group">
+                    <p class="counter-number" id="seconds">00</p>
+                    <p class="counter-text">Seconds</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <aside>
+        <nav>
+            <ul>
+                <a href="index.html"><li class="active-menu"><i class="fa-white fa-gamepad active-menu"></i>New games</li></a>
+                <a href="#"><li><i class="fa-white fa-list"></i>Categories</li></a>
+                <a href="#"><li><i class="fa-brands fa-rocketchat"></i>Reviews</li></a>
+                <a href="#"><li><i class="fa-white fa-newspaper"></i>News</li></a>
+                <a href="./e-commerce-list.html"><li><i class="fa-white fa-cart-shopping"></i>Your cart<span class="notification">0</span></li></a>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <div class="card-container">
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li>Proyecto realizado por: Federico Lacolla</li>
+            <li>Proyecto final CODERHOUSE</li>
+            <li>Curso: JavaScript</li>
+            <li>Año 2024</li>
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="module" src="main.js"></script>
+    <script type="module" src="e-commerce-list.js"></script>    
+</body>
+</html>
