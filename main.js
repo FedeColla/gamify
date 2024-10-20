@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () =>{
                         </div>
                         <div class="chip status-information">
                             <p class="chip-text">${genre}</p>
-                            <img src="/assets/category.svg" alt="${genre}">
+                            <img src="./assets/category.svg" alt="${genre}">
                         </div>
                     </div>
                     <div class="hero-gradient"></div>
@@ -158,10 +158,10 @@ document.addEventListener('DOMContentLoaded', () =>{
     
                 if (rating >= 4) {
                     ratingChip.classList.add("status-highScore");
-                    statusImg.src = "/assets/smily_star.svg";
+                    statusImg.src = "./assets/smily_star.svg";
                 } else {
                     ratingChip.classList.add("status-lowScore");
-                    statusImg.src = "/assets/sad_star.svg";
+                    statusImg.src = "./assets/sad_star.svg";
                 }
     
                 function addCart() { //sumo juegos al carrito
