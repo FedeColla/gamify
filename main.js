@@ -1,5 +1,5 @@
 let fecha = new Date();  // Cambiado para obtener la fecha y hora actual
-fecha.setDate(fecha.getDate() + 14);  // Sumamos 14 días a la fecha actual
+fecha.setDate(fecha.getDate() + 1);  // Sumamos 14 días a la fecha actual
 
 let msDate = fecha.getTime(); 
 
