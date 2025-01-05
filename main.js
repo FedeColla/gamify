@@ -1,5 +1,7 @@
-let fecha = new Date(2024 , 10, 17, 18);
-let msDate = fecha.getTime();
+let fecha = new Date();  // Cambiado para obtener la fecha y hora actual
+fecha.setDate(fecha.getDate() + 14);  // Sumamos 14 días a la fecha actual
+
+let msDate = fecha.getTime(); 
 
 let textDays = document.querySelector("#days");
 let textHours = document.querySelector("#hours");
